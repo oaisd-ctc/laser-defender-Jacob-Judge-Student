@@ -21,7 +21,7 @@ public class Shooter : MonoBehaviour
     AudioPlayer audioPlayer;
 
 
-    private void Awake()
+     void Awake()
     {
         audioPlayer = FindObjectOfType<AudioPlayer>();
     }
@@ -71,6 +71,7 @@ public class Shooter : MonoBehaviour
             timeToNextProjectile = Mathf.Clamp(timeToNextProjectile, minimumFiringRate, float.MaxValue);
 
             audioPlayer.PlayShootingClip();
+            audioPlayer.GetInstance().PlayShootingClip();
 
             yield return new WaitForSeconds(baseFiringRate);
         }
