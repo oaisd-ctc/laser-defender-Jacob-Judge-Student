@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 8079104177815103610}
   - component: {fileID: -8754996732871252960}
   m_Layer: 7
-  m_Name: enemyBlue4
+  m_Name: enemyBlue4 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -199,11 +199,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efe90f04ef3c0f74983968876650aa1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isPlayer: 0
-  health: 30
-  score: 35
+  health: 50
   hitEffect: {fileID: 8589502552918154574, guid: c04702c8716b12c43bcb68e3770a5923, type: 3}
-  applyCameraShake: 0
 --- !u!114 &676840132913751729
 MonoBehaviour:
   m_ObjectHideFlags: 0
