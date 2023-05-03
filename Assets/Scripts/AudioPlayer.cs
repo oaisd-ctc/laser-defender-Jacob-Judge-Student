@@ -13,7 +13,7 @@ public class AudioPlayer : MonoBehaviour
     [SerializeField] AudioClip damageClip;
     [SerializeField][Range(0f, 1f)] float damageVolume = 1f;
 
-   public static AudioPlayer instance;
+   static AudioPlayer instance;
 
     public AudioPlayer GetInstance()
     {
